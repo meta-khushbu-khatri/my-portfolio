@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../Photo.png"
+import img from "../../photo.png"
 
 const Avatar = () => {
     return (
