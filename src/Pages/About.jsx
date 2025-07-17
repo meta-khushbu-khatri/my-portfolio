@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
-import img from "../../Photo.png"
+import img from "../../photo.png"
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";

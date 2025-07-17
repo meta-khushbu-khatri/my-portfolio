@@ -5,7 +5,7 @@ import Button from '../component/Button'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import img from "../../Photo.png"
+import img from "../../photo.png"
 import Skills from '../component/Skills';
 import Projects from './Projects';
 
