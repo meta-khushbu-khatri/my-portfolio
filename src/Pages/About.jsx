@@ -35,7 +35,7 @@ const About = () => {
             </div>
 
             <div  className='px-8 flex flex-col gap-5 mb-20'>
-                <p className='text-4xl tracking-wide text-cyan-600'>Experince  </p>
+                <p className='text-4xl tracking-wide text-cyan-600'>Experience   </p>
                 <div className=" text-gray-600 dark:text-gray-500  mt-5 leading-loose text-lg ">Salesforce Administrator Salesforce CRM-Sales cloud and Service cloud. Lightning experience in SFDC administrative tasks like creating profiles, Roles, Users, Page layouts, Approvals, Workflow, Reports, Dashboards,
                     Tasks, and events. Also, basic knowledge of LWC, Apex Responsible for Installation, Upgrade, and maintenance of FinancialForce packages in the Salesforce environment
 
