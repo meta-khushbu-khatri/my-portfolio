@@ -7,7 +7,6 @@ const DarkMode = () => {
   // Load theme from localStorage or system preference
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
-    console.log(savedTheme)
     const prefersDark = window.matchMedia(
       "(prefers-color-scheme: dark)"
     ).matches;
@@ -28,7 +27,7 @@ const DarkMode = () => {
   }, [theme]);
 
   return (
-    <div className="w-fit p-1 m2  ">
+    <div className="w-full sm:w-fit p-1 m-2 flex flex-col sm:flex-row items-center gap-2">
       <button
         onClick={() => setTheme("light")}
         className={`p-3 gap-1 rounded-lg hover:bg-zinc-200 ${

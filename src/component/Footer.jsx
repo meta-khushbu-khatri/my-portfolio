@@ -16,10 +16,10 @@ const Footer = () => {
                     </a>
 
                     {/* Navigation */}
-                    <div className='flex gap-7'>
+                    <div className='flex flex-wrap justify-center gap-7'>
                         <a href="/projects" className='hover:text-cyan-600 cursor-pointer'>Project</a>
                         <a href="/about" className='hover:text-cyan-600 cursor-pointer'>About</a>
-                        <a href="/reviews" className='hover:text-cyan-600 cursor-pointer'>Review</a>
+                        <a href="/contacts" className='hover:text-cyan-600 cursor-pointer'>Contact</a>
                     </div>
 
                     {/* Glass Social Icon Selector */}

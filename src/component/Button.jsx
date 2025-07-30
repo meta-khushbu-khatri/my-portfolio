@@ -3,18 +3,28 @@ import styled from 'styled-components';
 
 const Button = () => {
   return (
-    <StyledWrapper>
-      <button>Hire me</button>
-    </StyledWrapper>
+    <ResponsiveWrapper>
+      <StyledWrapper>
+        <button>Hire me</button>
+      </StyledWrapper>
+    </ResponsiveWrapper>
   );
-}
+};
+
+const ResponsiveWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+`;
 
 const StyledWrapper = styled.div`
   button {
     height: 50px;
     margin: 5px;
     width: 120px;
-    background: #bg-cyan-800;
+    background: #bg-cyan-800; /* Invalid but overridden anyway */
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -50,6 +60,7 @@ const StyledWrapper = styled.div`
     color: #d6d6d6;
     -webkit-transition: 100ms;
     transition: 100ms;
-  }`;
+  }
+`;
 
 export default Button;

@@ -13,38 +13,36 @@ const Contacts = () => {
       <Navbar />
       <section className='p-7'>
         <h1 className='text-4xl text-center text-cyan-600 font-bold mt-5'>Connect With Me</h1>
-        <div className='flex p-7 gap-5 justify-center'>
-          <div className='w-[50%] flex-grow h-auto gap-10 flex flex-col items-center py-5'>
-            <div className='flex col gap-7 '>
-            <Card
-              label="GitHub"
-              url="https://github.com/meta-khushbu-khatri"
-              icon={<FaGithub className="size-6 m-3 hover:text-white" />}
-              bgColor="#0891B2"
-            />
 
-            <Card
-              label="Twitter"
-              url="https://x.com/Khushbu_2405"
-              icon={<FaXTwitter className="size-6 m-3 hover:text-white" />}
-              bgColor="#0891B2"
-            />
-</div>
- <div className='flex col gap-7'>
-            <Card
-              label="LinkedIn"
-              url="https://www.linkedin.com/in/khushbu-khatri-a10853196/"
-              icon={<FaLinkedin className="size-6 m-3 hover:text-white" />}
-              bgColor="#0891B2"
-            />
-            <Card
-              label="Mail"
-              url= <p>"khushbukhatri245@gmail.com"</p>
-              icon={<IoMail className="size-6 m-3 hover:text-white" />}
-              bgColor="#0891B2"
-            />
-            </div>
-          </div>
+        {/* Wrap all cards in a responsive flex container */}
+        <div className='flex flex-col md:flex-row flex-wrap items-center justify-center gap-7 py-10'>
+          <Card
+            label="GitHub"
+            url="https://github.com/meta-khushbu-khatri"
+            icon={<FaGithub className="size-6 m-3 hover:text-white" />}
+            bgColor="#0891B2"
+          />
+
+          <Card
+            label="Twitter"
+            url="https://x.com/Khushbu_2405"
+            icon={<FaXTwitter className="size-6 m-3 hover:text-white" />}
+            bgColor="#0891B2"
+          />
+
+          <Card
+            label="LinkedIn"
+            url="https://www.linkedin.com/in/khushbu-khatri-a10853196/"
+            icon={<FaLinkedin className="size-6 m-3 hover:text-white" />}
+            bgColor="#0891B2"
+          />
+
+          <Card
+            label="Mail"
+            url="mailto:khushbukhatri245@gmail.com"
+            icon={<IoMail className="size-6 m-3 hover:text-white" />}
+            bgColor="#0891B2"
+          />
         </div>
       </section>
       <Footer />
